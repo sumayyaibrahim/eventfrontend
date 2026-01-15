@@ -1,4 +1,4 @@
-const BASE_URL = "https://eventbackend1.onrender.com";
+const BASE_URL = "https://eventbackend1.onrender.com/api";
 
 // REGISTER
 export const registerUser = async (userData) => {
