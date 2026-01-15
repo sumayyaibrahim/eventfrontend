@@ -1,8 +1,6 @@
 
-
-
 import { useEffect, useState } from "react";
-import EventCard from "../components/EventCard";
+import EventCard from "../components/Eventcard";
 import { getEvents } from "../eventapi";
 import { useNavigate } from "react-router-dom";
 

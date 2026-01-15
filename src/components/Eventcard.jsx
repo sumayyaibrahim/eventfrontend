@@ -1,6 +1,4 @@
 
-
-
 function EventCard({ event, isAdmin, onEdit, onDelete }) {
   return (
     <div className="border rounded p-4 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3">
