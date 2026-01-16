@@ -1,5 +1,5 @@
 
-const BASE_URL = "https://eventbackend1.onrender.com"
+const BASE_URL = "https://eventbackend1.onrender.com/api"
 
 // helper to get auth headers
 const authHeaders = () => {
