@@ -1,5 +1,5 @@
 
-const BASE_URL = "https://eventbackend1.onrender.com/api"
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 // helper to get auth headers
 const authHeaders = () => {
