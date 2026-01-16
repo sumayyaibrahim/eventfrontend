@@ -1,4 +1,4 @@
-const BASE_URL = "https://eventbackend1.onrender.com/api";
+const BASE_URL = import.meta.env.VITE_API_URL
 
 // REGISTER
 export const registerUser = async (userData) => {
